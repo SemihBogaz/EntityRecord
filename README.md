@@ -4,7 +4,7 @@ Spring MVC projesi
 ## Çalıştırma
 - Proje indirildikten sonra tomcat sunucusunda ayarlar yapılır.
 - <TOMCAT_HOME>/conf/tomcat-users.xml
-```
+```html
     <role rolename="manager-gui"/>
     <role rolename="manager-script"/>
     <role rolename="manager-jmx"/>
