@@ -17,3 +17,10 @@ Spring MVC projesi
 - Tomcat sunucu ismi, şifresi, kullanıcı adı settings.xml içine yazılır.
 - Tomcat şifresi, kullanıcı adı tomcat-user.xml içine yazılır.
 - pom.xml içerisine 142.satırdan başlayarak Tomcat şifresi, kullanıcı adı yazılır.
+- Projenin bulunduğu dizinde terminale girilir.
+    
+    ```console
+         mvn install tomcat7:deploy
+    ``` 
+    komutu ile çalıştırılır.
+- Tarayıcıda http://localhost:8080/EntityRecord adresinden uygulama denemeye hazırdır.
